@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" http://postcatcher.in/catchers/55c268d70a25af0300000676 -d '{"format": "json", "topic": "order/created", "url": "http://myshop.example.com/notify_me"}'
